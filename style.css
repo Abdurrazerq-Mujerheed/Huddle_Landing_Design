@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 480px){
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+body {
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400 700;
+}
+
+h1, h2, button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: hsl(192, 100%, 9%);
+}
+.btn {
+  background-color: hsl(322, 100%, 66%);
+  border-radius: 30px;
+  color: white;
+  padding: 17px 30px;
+}
+p, li{
+  color: hsl(208, 11%, 55%);
+}
+ul {
+  list-style: none;
+}
+
+li img {
+  height: 30px;
+  width: 30px;
+  border: hsl(208, 11%, 55%);
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+}
+
+.container
+.right img, .left img {
+  height: auto;
+  width: 50%;
+}
+.container-item {
+  display: grid;
+  grid-auto-flow: column;
+}
+/* 
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+ */
